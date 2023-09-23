@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".live_views_page">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_242sdp"
+        android:layout_height="@dimen/_73sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:cardElevation="@dimen/_7sdp"
+        app:cardCornerRadius="@dimen/_17sdp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_160sdp"
+            android:background="@drawable/eyes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_19ssp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_64sdp"
+            android:text="Live views"/>
+
+        <TextView
+            android:id="@+id/views"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:text="updating"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/calculation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_gravity="center_horizontal"
+            android:text="counting"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_242sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_137sdp"
+        app:cardElevation="@dimen/_7sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="last 1 minute"/>
+
+        <TextView
+            android:id="@+id/views_1minute"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:text="updating"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_242sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_235sdp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="@dimen/_7sdp"
+        app:cardCornerRadius="@dimen/_17sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="last 2 minute"/>
+
+        <TextView
+            android:id="@+id/views_2minute"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:text="updating"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_242sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_335sdp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="@dimen/_7sdp"
+        app:cardCornerRadius="@dimen/_17sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="last 3 minute"/>
+
+        <TextView
+            android:id="@+id/views_3minute"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:text="updating"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_242sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_435sdp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="@dimen/_7sdp"
+        app:cardCornerRadius="@dimen/_17sdp">
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="last 4 minute"/>
+
+        <TextView
+            android:id="@+id/views_4minute"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:text="updating"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>

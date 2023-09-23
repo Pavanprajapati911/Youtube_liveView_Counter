@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_360sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        app:cardCornerRadius="@dimen/_24sdp"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/edittext_shape">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_shape"/>
+
+
+    <EditText
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_30sdp"
+        android:id="@+id/video_url"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_53sdp"
+        android:hint="  Paste link here"/>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_93sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_185sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        app:cardElevation="@dimen/_8sdp"
+        android:id="@+id/likes">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/like"
+
+            android:layout_marginTop="@dimen/_7sdp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Likes"
+            android:textStyle="bold"
+            android:textSize="@dimen/_17ssp"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_93sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        app:cardElevation="@dimen/_8sdp"
+        android:id="@+id/dislikes"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/dislike"
+            android:layout_marginTop="@dimen/_9sdp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dislikes"
+            android:textStyle="bold"
+            android:textSize="@dimen/_17ssp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/comments"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_93sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_416sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        app:cardElevation="@dimen/_8sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/comment"
+            android:layout_marginTop="@dimen/_9sdp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14ssp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/live_views"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_93sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_185sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        app:cardElevation="@dimen/_8sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/witness"
+            android:layout_marginTop="@dimen/_9sdp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live views"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14ssp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tags"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_93sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        app:cardElevation="@dimen/_8sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/tag"
+            android:layout_marginTop="@dimen/_9sdp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags"
+            android:textStyle="bold"
+            android:textSize="@dimen/_17ssp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subscribers"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_93sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_416sdp"
+        app:cardCornerRadius="@dimen/_17sdp"
+        app:cardElevation="@dimen/_8sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardview_background"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/bell"
+            android:layout_marginTop="@dimen/_9sdp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscribers"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13ssp"/>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
